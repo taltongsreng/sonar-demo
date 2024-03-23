@@ -5,7 +5,7 @@ pipeline {
 	    jdk "JDK21"
 	}
     environment {
-        SONAR_TOKEN = credentials('squ_3f1773f3ba2c7e33d6c3f971267fe8866b9bc706')
+        //SONAR_TOKEN = credentials('squ_3f1773f3ba2c7e33d6c3f971267fe8866b9bc706')
     }
     
     stages {
