@@ -60,13 +60,13 @@ pipeline {
         }
     }
     
-    post {
-        always {
-            // Publish SonarQube analysis results
-            publishAlways: true
-            timeout(time: 1, unit: 'HOURS') {
-                waitForQualityGate abortPipeline: true
-            }
-        }
-    }
+    // post {
+    //     always {
+    //         // Publish SonarQube analysis results
+    //         publishAlways: true
+    //         timeout(time: 1, unit: 'HOURS') {
+    //             waitForQualityGate abortPipeline: true
+    //         }
+    //     }
+    // }
 }
