@@ -4,9 +4,9 @@ pipeline {
 	    maven "Maven3"
 	    jdk "JDK21"
 	}
-    environment {
+    //environment {
         //SONAR_TOKEN = credentials('squ_3f1773f3ba2c7e33d6c3f971267fe8866b9bc706')
-    }
+    //}
     
     stages {
         stage('Checkout') {
